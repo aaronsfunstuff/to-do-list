@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    color:grey;
 }
 
 .container {
@@ -37,7 +38,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #F0F3FA;
 }
 
 ul {
@@ -51,4 +52,8 @@ li {
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.completed {
+    text-decoration: line-through;
+    color: #888;
 }
